@@ -1,0 +1,11 @@
+@media only screen and (min-width: 32.5em){
+    div h1 {
+        color:gray
+    }
+    div p {
+        color:red
+    }
+    .lessons {
+        color: purple;
+    }
+}
