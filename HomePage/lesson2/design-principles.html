@@ -5,7 +5,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Design Principles Doc!</title>
-    <link rel="stylesheet" href="styles/styles.css">
+    <link rel="stylesheet" href="styles/normalize.css">
+    <link rel="stylesheet" href="styles/small.css">
+    <link rel="stylesheet" href="styles/medium.css">
+    <link rel="stylesheet" href="styles/large.css">
+    <link rel="shortcut icon" href="images/menu_icon.png" type="image/x-icon">
 </head>
 <body>
     <header>
@@ -16,38 +20,69 @@
             Jesus Israel Bejar 
         </h2>
     </header>
-    <div class="container-1">
-        <h1>
-            Visual Hierarchy
-        </h1>
-        <h2>
-            Word Reference
-        </h2>
-        <a href="https://www.wordreference.com/" alt="Word Reference Home Page">wordreference.com</a>
-        <img src="images/WordReference.jpg" alt="Word Reference Home Page">
-        <p> Explanation for VH</p>
+    <div class="completecontainer">
+    <!-- use section in future -->
+        <section class="container-1">
+            <h1>
+                Visual Hierarchy
+            </h1>
+            <h2>
+                Word Reference
+            </h2>
+            <a href="https://www.wordreference.com/" alt="Word Reference Home Page">wordreference.com</a>
+            <img src="images/WordReference.jpg" alt="Word Reference Home Page">
+            <p> Visual Hierarchy is the principle of arranging elements to show their order of importance.
+                On the mobile version of the Word Reference website you see that the most important (and useful)
+                part of the website is the search bar. Following that is the language to language drop down menu, 
+                and lastly the individual language dictionaries at the bottom.
+            </p>
+        </section>
+        
+        <section class="container-2">
+            <h1>
+                Fitt's Law
+            </h1>
+            <h2>
+                Simply Chocolate
+            </h2>
+            <a href="https://simplychocolatecph.com/" alt="Simply Chocolate website">simplechocolatecph.com</a>
+            <img src="images/SimplyChocolate.jpg" alt="Simply SimplyChocolate Home Page">
+            <p> Fitt's law states that that the time required to move to a target
+                area is a function of the distance to the target and the size of the 
+                distance to the target and the size of the target. Basically, it takes less time
+                for a mouse pointer to click a button or link if that button or link is big. On the 
+                Simply Chocolate website we see that a tempting chocolate bar occupies a lot
+                of space on the screen and directly over it is a big "shop" square that invites a 
+                finger to tap on it.
+                
+            </p>
+        
+        </section>
+        <section class="container-3">
+            <h1>
+                Hick's Law
+            </h1>
+            <h2>
+                Stock X
+            </h2>
+            <a href="https://stockx.com/" alt="StockX website">stockx.com</a>
+            <img src="images/StockXFilter.jpg" alt="StockX Filter Page">
+            <p> Hick's law states that the more choices you are given, the longer
+                it takes you to make a decision. This is true for all website visitors.
+                An easy way to manages the many choices a website can offer its customers 
+                is through filters. On the mobile website for StockX we see here that you
+                can apply specific filters to find a specific type of clothing, whether its
+                sneakers, appearel or accessories.
+            </p>
+        
+        </section>
     </div>
-    <div class="container-2">
-        <h1>
-            Hick's Law
-        </h1>
-        <h2>
-            Simply Chocolate
-        </h2>
-        <a href="https://simplychocolatecph.com/" alt="Simply Chocolate website">simplechocolatecph.com</a>
-        <img src="images/SimplyChocolate.jpg" alt="Simply SimplyChocolate Home Page">
-        <p> Explanation for Hick</p>
-    </div>  
-    <div class="container-3">
-        <h1>
-            Fitt's Law
-        </h1>
-        <h2>
-            Stock X
-        </h2>
-        <a href="https://stockx.com/" alt="StockX website">stockx.com</a>
-        <img src="images/StockXFilter.jpg" alt="StockX Filter Page">
-        <p> Explanation for Fitt</p>
-    </div>
+    <footer>
+        <div class="footer-wrap">
+                <div class="copyright"><span id="copyright"></span> .:|:. Jesus Bejar .:|:. Loveland, Colorado
+                </div>
+                <p class="updated">Last updated: <span id="lastupdate"></span></p>
+        </div>
+    </footer>
 </body>
 </html>
