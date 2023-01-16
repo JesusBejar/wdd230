@@ -33,7 +33,9 @@ header h2 {
     color: white;
 }
 
-
+img {
+    width:100%;
+}
 
 .container-1 {
     border: 3px solid black;
