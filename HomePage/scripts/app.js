@@ -1,6 +1,9 @@
 // Select the HTML element to manipulate
 const date1 = document.querySelector("#date1");
 const message = document.querySelector("#emessage");
+// reference html id tp manipulate with the line below
+const updateddate = document.querySelector("#lastupdate");
+updateddate.innerHTML = document.lastModified;
 
 // Try to complete the method with options
 try {
