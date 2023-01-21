@@ -1,9 +1,36 @@
 :root {
     --lato: 'Lato', sans-serif;
     --nunito: 'Nunito Sans', sans-serif;
+
+    --color1: #EB5E28;
+    --color2: #252422;
+    --color3: #403D39;
+    --color4: #CCC5B9;
+    --color5: #FFFCF2;
 }
 
 header h1 {
     text-align: center;
-    background-color: ;
+    background-color: #EB5E28;
+    color: var(--color5);
 }
+
+nav {
+    margin: 0 auto;
+    background-color: var(--color2);
+}
+
+header ul {
+    display: flex;
+    justify-content: space-evenly;
+    padding: 15px;
+}
+
+header li {
+    display: inline;
+}
+
+a:hover {
+    background-color: xx;
+}
+
