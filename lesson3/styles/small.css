@@ -11,7 +11,7 @@
 
 header h1 {
     text-align: center;
-    background-color: #EB5E28;
+    background-color: var(--color1);
     color: var(--color5);
 }
 
