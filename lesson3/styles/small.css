@@ -1,5 +1,5 @@
 :root {
-    --lato: 'Lato', sans-serif;
+    --roboto: 'Roboto', sans-serif;
     --nunito: 'Nunito Sans', sans-serif;
 
     --color1: #EB5E28;
@@ -34,3 +34,6 @@ a:hover {
     background-color: xx;
 }
 
+table {
+    border: 5px #252422 ;
+}
