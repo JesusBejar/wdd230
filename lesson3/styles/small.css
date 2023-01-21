@@ -36,6 +36,7 @@ nav {
     color: var(--color5);
     max-width: 1300px;
     font-size: 20px;
+    text-decoration: none;
 }
 
 header ul {
@@ -45,6 +46,7 @@ header ul {
     color: var(--color5);
     text-decoration: none;
     overflow: hidden;
+    text-decoration: none;
 }
 
 header li {
@@ -71,4 +73,38 @@ footer {
     padding: 20px;
     margin: 10px;
     font-size: 20px;
+}
+
+.sample1 {
+    font-family: var(--roboto);
+    font-size: 32px;
+    color: var(--color5);
+    background-color: var(--color1);
+}
+
+.sample2 {
+    font-family: var(--nunito);
+    font-size: 20px;
+    color: var(--color5);
+    background-color: var(--color2);
+    
+}
+.sample3 {
+    font-family: var(--roboto);
+    font-size: 26px;
+    color: var(--color3);
+    
+}
+.sample4 {
+    font-family: var(--nunito);
+    font-size: 20px;
+    color: var(--color2);
+    background-color: var(--color5);
+}
+.sample5{
+    font-family: var(--roboto);
+    font-size: 32px;
+    color: var(--color5);
+    background-color: var(--color1);
+
 }
