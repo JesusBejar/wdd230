@@ -8,32 +8,61 @@
     --color4: #CCC5B9;
     --color5: #FFFCF2;
 }
-
+body {
+    text-align: center;
+    max-width: 1200px;
+    margin: 0 auto;
+    background-color: var(--color5);
+}
 header h1 {
     text-align: center;
     background-color: var(--color1);
     color: var(--color5);
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 30px;
+}
+
+h1 p {
+    text-align: left;
+    color: #403D39;
 }
 
 nav {
     margin: 0 auto;
     background-color: var(--color2);
+    color: var(--color5);
+    max-width: 1200px;
 }
 
 header ul {
     display: flex;
     justify-content: space-evenly;
-    padding: 15px;
+    padding: 30px;
+    color: var(--color5);
+    text-decoration: none;
+    overflow: hidden;
 }
 
 header li {
     display: inline;
+    color: var(--color5);
+    text-decoration: none;
 }
 
 a:hover {
-    background-color: xx;
+    color: var(--color5);
+    text-decoration: none;
 }
 
 table {
     border: 5px #252422 ;
+}
+
+footer {
+    background-color: var(--color1);
+    color: var(--color5);
+    max-width: 1200px;
+    padding: 20px;
+    margin: 10px;
 }
