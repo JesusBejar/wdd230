@@ -10,8 +10,7 @@
             flex: 1 1 auto;
         }
         a:hover {
-            color: var(--color3);
-            background-color: var(--color1);
+            color: var(--color5);
         }
         main, p, h3,h2 {
             margin-right: 20px;
@@ -41,10 +40,4 @@
         .first-page h2 {
             font-size: 28px;
         }
-        #font, #heading {
-            font-size: 28px;
-            text-align: center;
-
-        }
-                
 }
