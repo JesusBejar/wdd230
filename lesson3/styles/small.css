@@ -16,7 +16,7 @@ body {
 }
 header h1 {
     text-align: center;
-    background-color: var(--color5);
+    background-color: var(--color1);
     color: var(--color5);
     max-width: 1300px;
     margin: 0 auto;
