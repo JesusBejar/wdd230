@@ -64,6 +64,23 @@ a:hover {
 
 table {
     border: 5px #252422 ;
+    margin: 0 auto;
+}
+tr td { 
+    font-family: var(--robo);
+    text-align: center;
+}
+table, td {
+    border: 2px solid var(--color2);
+    height: 10vh; 
+}
+th {
+    font-family: var(--roboto);
+    background-color: var(--color5);
+    color: var(--color2);
+    font-size: 18px;
+    text-align: center;
+    padding: 7px;
 }
 
 footer {
