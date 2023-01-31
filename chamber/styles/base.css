@@ -1,0 +1,39 @@
+:root {
+    --roboto: 'Roboto', sans-serif;
+    --nunito: 'Nunito Sans', sans-serif;
+
+    --color1: #EB5E28;
+    --color2: #252422;
+    --color3: #403D39;
+    --color4: #CCC5B9;
+    --color5: #FFFCF2;
+}
+
+#page {
+    background-color: var(--color5);
+}
+header {
+    display: flex;
+    background-image: linear-gradient(to right, var(--color1), var(--color5));
+    color: var(--color5);
+}
+.logo {
+    text-align: left;
+}
+#title {
+    text-align: center;
+    margin: 0 auto;
+}
+#icons {
+    text-align: right;
+}
+
+#navBar {
+    text-align: center;
+    background-color: var(--color1);
+    color: var(--color5);
+    display: flex;
+    justify-content: space-evenly;
+    text-decoration: none;
+    padding: 2%;
+}
