@@ -16,6 +16,8 @@ header {
     display: flex;
     background-image: linear-gradient(to right, var(--color1), var(--color5));
     color: var(--color5);
+    text-shadow: 2px 3px 0px black;
+    font-family: var(--roboto);
 }
 .logo {
     text-align: left;
@@ -36,4 +38,19 @@ header {
     justify-content: space-evenly;
     text-decoration: none;
     padding: 2%;
+    color: var(--color5);
+}
+main {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr ;
+    grid-template-rows: 1fr 1fr 1fr;
+}
+
+#hero-box {
+    grid-row: 1/3;
+    grid-column: 2/3;
+    border: solid black 2px;
+}
+#weather { 
+    
 }
