@@ -17,8 +17,8 @@ header {
     display: flex;
     background-image: linear-gradient(to right, var(--color1), var(--color5));
     color: var(--color5);
-    text-shadow: 2px 3px 0px black;
     font-family: var(--roboto);
+    justify-content: space-between;
 }
 .navBar {
     display: flex;
@@ -70,11 +70,13 @@ header {
 #icons {
     text-align: right;
 }
-
+#hamburgerBtn {
+    size: 50px;
+}
 main {
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr ;
-    grid-template-rows: 1fr 1fr 1fr;
+    grid-template-columns: 1fr ;
+    grid-template-rows: 1fr ;
 }
 
 #hero-box {
@@ -145,15 +147,19 @@ footer .logo {
 }
 footer {
     margin: 0 auto;
-    display: block;
+    display: flex;
     background-color: var(--color1);
     color: var(--color5);
-    max-width: 1300px;
-    padding: 20px;
-    margin: 10px;
+    max-width: 100%;
     font-size: 20px;
 }
-
+#footer-wrapper {
+    display: flex;
+	align-items: center;
+	justify-content: center;
+}
 #sub-footer {
-    text-align: center;
+    display: flex;
+	align-items: center;
+	justify-content: center;
 }
