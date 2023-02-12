@@ -16,7 +16,7 @@
 #title {
     font-size: 30px;
     font-family: var(--nunito);
-    text-shadow: #252422;
+    text-shadow: 0px 0px 10px #000000;
 }
 header {
     display: flex;
@@ -78,9 +78,9 @@ li .navText {
 
 .logo {
     text-align: left;
-    border: solid var(--color5) 1px;
     margin-left: 25px;
     margin-top: 25px;
+    box-shadow: 0px 0px 10px var(--color5);
 }
 #title {
     text-align: center;
