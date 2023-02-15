@@ -90,7 +90,7 @@ li .navText {
     text-align: right;
 }
 #hamburgerBtn {
-    size: 50px;
+    width: 50px;
 }
 main {
     display: grid;
