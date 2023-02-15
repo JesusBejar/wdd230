@@ -45,7 +45,12 @@
             </header>
             <main>
                 <div id="hero-box">
-                    <img src="images/heroImg.jpeg" alt="">
+                    <picture>
+                        <source srcset="images/wdd230_300small.jpg" media="(min-width: 300px) and (max-width: 580)" alt="small img">
+                        <source srcset="images/wdd230_600medium.jpg" media="(min-width: 600px) and (max-width: 880)" alt="medium img">
+                        <source srcset="images/wdd230_900large.jpg" media="(min-width: 900px) and (max-width: 1180px)" alt="large img"> 
+                        <img src="images/wdd230_1200.jpg" alt="x large wdd image">
+                    </picture>
                     <p>
                         Hero image with site name and call to action 
                     </p>
@@ -66,8 +71,9 @@
                     <p>
                         Weather
                     </p>
-                    <p class="windtemp"></p>
-                    <p class="windspeed"></p>
+                    <p class="windtemp">48</p>
+                    <p class="windspeed">14</p>
+                    <p class="windchill"></p>
 
                 </div>
                 <div id="join">
@@ -154,5 +160,6 @@
         </footer >
     </div>
     <script src="scripts/app.js"></script>  
+    <script src="scripts/windchill.js"></script>  
 </body>
 </html>
