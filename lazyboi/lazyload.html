@@ -4,16 +4,26 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Lazy Loading Rocks!</title>
+    <link rel="stylesheet" href="lazy.css">
 </head>
 <body>
     <picture>
-        <img src="rsz_placeholder.jpg" alt="placeholder pic">
-        <img src="rsz_placeholder.jpg" alt="placeholder pic">
-        <img src="rsz_placeholder.jpg" alt="placeholder pic">
-        <img src="rsz_placeholder.jpg" alt="placeholder pic">
-        <img src="rsz_placeholder.jpg" alt="placeholder pic">
+        <!-- lazy loading can only work with data-src property??? -->
+        <img src="rsz_placeholder.jpg" data-src="https://loremflickr.com/320/240/brazil,rio" alt="placeholder pic">
     </picture>
-    
+    <picture>
+        <img src="rsz_placeholder.jpg" data-src="https://loremflickr.com/320/240/brazil,rio" alt="placeholder pic">
+    </picture>
+    <picture>
+        <img src="rsz_placeholder.jpg" data-src="https://loremflickr.com/320/240/brazil,rio" alt="placeholder pic">
+    </picture>
+    <picture>
+        <img src="rsz_placeholder.jpg" data-src="https://loremflickr.com/320/240/brazil,rio" alt="placeholder pic">
+    </picture>
+    <picture>
+        <img src="rsz_placeholder.jpg" data-src="https://loremflickr.com/320/240/brazil,rio" alt="placeholder pic">
+    </picture>
+    <script src="lazy.js"></script>
 </body>
 </html>
