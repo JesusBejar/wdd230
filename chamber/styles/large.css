@@ -42,6 +42,13 @@
         align-self: center;
         justify-self: flex-end;
         flex-direction: column;
+        text-align: right;
+    }
+    .lastVisit {
+        color: #EB5E28;
+    }
+    .userVisits {
+        color: #EB5E28;
     }
     #contact-info {
         width: 200px;
