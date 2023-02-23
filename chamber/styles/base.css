@@ -9,7 +9,6 @@
     --color5: #FFFCF2;
 }
 
-
 #page {
     background-color: var(--color5);
 }
@@ -104,6 +103,11 @@ main {
     text-align: center;
     border: solid black 2px;
     padding: 20px;
+}
+#hero-box img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
 }
 #weather { 
     grid-row: 1/2;
