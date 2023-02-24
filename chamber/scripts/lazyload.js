@@ -5,7 +5,7 @@ const imgOptions = {
   // -500 won't let the images load until the viewport is -500 px away
   // this number should be positive (usually 300) so that the image loads
   // as teh viewport approaches it
-  rootMargin: "0px 0px -200px 0px"
+  rootMargin: "0px 0px -500px 0px"
 };
 
 // this preloads the images
