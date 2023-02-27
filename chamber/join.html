@@ -50,31 +50,99 @@
             <form action="get" action="thankyou.html">
                 <fieldset class="fieldset1">
                     <legend>Membership Information</legend>
-                    <label>First Name*<input type="text" name="fname" required></label>
-                    <label>Last Name*<input type="text" name="lname" required></label>
-                    <label>Email*<input type="email" name="email" placeholder="Jane&John@gmail.com" required></label>
-                    <label>Phone Number*<input type="tel" name="phone" placeholder="+19999999999"required></label>
-                    <label>Business Name*<input type="text" name="busname" required></label>
-                    <label>Business Position<input type="text" name="busposition" required></label>
+                    <label class="top">First Name*<input type="text" name="fname" required></label>
+                    <label class="top">Last Name*<input type="text" name="lname" required></label>
+                    <label class="top">Email*<input type="email" name="email" placeholder="Jane&John@gmail.com" required></label>
+                    <label class="top">Phone Number*<input type="tel" name="phone" placeholder="+19999999999"required></label>
+                    <label class="top">Business Name*<input type="text" name="busname" required></label>
+                    <label class="top">Business Position<input type="text" name="busposition" required></label>
                 </fieldset>
                 <fieldset class="fieldset2">
                     <legend>Select Membership Level</legend>
-                    <label ><input type="radio" name="membership" value="free">Free - no charge</label>
-                    <label ><input type="radio" name="membership" value="bronze">Bronze - $100 monthly</label>
-                    <label ><input type="radio" name="membership" value="silver">Silver - $200 monthly</label>
-                    <label ><input type="radio" name="membership" value="gold">Gold - $300 monthly</label>
+                    <label class="sbs"><input type="radio" name="membership" value="free">Free - no charge</label>
+                    <label class="sbs"><input type="radio" name="membership" value="mom&pop">Mom & Pop - $100 monthly</label>
+                    <label class="sbs"><input type="radio" name="membership" value="professional">Professional - $200 monthly</label>
+                    <label class="sbs"><input type="radio" name="membership" value="coorporate">Coorporate - $300 monthly</label>
                 </fieldset>
                 <fieldset class="fieldset3">
                     <legend>Describe your business!</legend>
                     <textarea name="text-box" id="text-box" cols="30" rows="10"></textarea>
                 </fieldset>
 
-
-
-
-
-
-
+                <table>
+                    <caption>Table 1: Account Feature comparison</caption>
+                    <thead>
+                        <tr>
+                            <th colspan="4" scope="colgroup">COWBOY Wild West Services</th>
+                        </tr>
+                        <tr>
+                            <th scope="col"></th>
+                            <th scope="col">Free</th>
+                            <th scope="col">Mom & Pop</th>
+                            <th scope="col">Professional</th>
+                            <th scope="col">Coorporate</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>Open-Access Business Directory</td>
+                            <td>✅</td>
+                            <td>✅</td>
+                            <td>✅</td>
+                            <td>✅</td>
+                        </tr>
+                        <tr>
+                            <td>Regular Group Business classes</td>
+                            <td>✅</td>
+                            <td>✅</td>
+                            <td>✅</td>
+                            <td>✅</td>
+                        </tr>
+                        <tr>
+                            <td>Local Advertising</td>
+                            <td>❌</td>
+                            <td>✅</td>
+                            <td>✅</td>
+                            <td>✅</td>
+                        </tr>
+                        <tr>
+                            <td>One-on-one Business classes</td>
+                            <td>❌</td>
+                            <td>✅</td>
+                            <td>✅</td>
+                            <td>✅</td>
+                        </tr>
+                        <tr>
+                            <td>Sponsorship opportunities</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>✅</td>
+                            <td>✅</td>
+                        </tr>
+                        <tr>
+                            <td>Monthly finance checkups</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>✅</td>
+                            <td>✅</td>
+                        </tr>
+                        <tr>
+                            <td>Exclusive local leads</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>✅</td>
+                        </tr>
+                        <tr>
+                            <td>Exclusive team assigned to your business</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>❌</td>
+                            <td>✅</td>
+                        </tr>
+                    </tbody>
+                </table>
+                <input type="submit" value="Join the Chamber!" class="submitBtn">
             </form>
         </main>
         <footer id="footer">
