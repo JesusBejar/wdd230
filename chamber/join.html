@@ -48,7 +48,7 @@
         </div>
         <main>
             <form action="get" action="thankyou.html">
-                <fieldset>
+                <fieldset class="fieldset1">
                     <legend>Membership Information</legend>
                     <label>First Name*<input type="text" name="fname" required></label>
                     <label>Last Name*<input type="text" name="lname" required></label>
@@ -56,6 +56,17 @@
                     <label>Phone Number*<input type="tel" name="phone" placeholder="+19999999999"required></label>
                     <label>Business Name*<input type="text" name="busname" required></label>
                     <label>Business Position<input type="text" name="busposition" required></label>
+                </fieldset>
+                <fieldset class="fieldset2">
+                    <legend>Select Membership Level</legend>
+                    <label ><input type="radio" name="membership" value="free">Free - no charge</label>
+                    <label ><input type="radio" name="membership" value="bronze">Bronze - $100 monthly</label>
+                    <label ><input type="radio" name="membership" value="silver">Silver - $200 monthly</label>
+                    <label ><input type="radio" name="membership" value="gold">Gold - $300 monthly</label>
+                </fieldset>
+                <fieldset class="fieldset3">
+                    <legend>Describe your business!</legend>
+                    <textarea name="text-box" id="text-box" cols="30" rows="10"></textarea>
                 </fieldset>
 
 
