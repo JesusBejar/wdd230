@@ -215,3 +215,95 @@ footer {
 	align-items: center;
 	justify-content: center;
 }
+/* The css below applies to the Name, LastName section of Join,html */
+form fieldset {
+    margin: 2rem 0;
+    border-radius: 15px;
+    padding: .5rem 2%;
+}
+form legend {
+    color: var(--color1);
+    margin: 0 1 rem;
+    padding: 0 .5rem;
+}
+
+form label.top {
+    display: block;
+    color: var(--color2);
+    font-size: .8rem;
+    color: red;
+}
+form label.top input, form label.top select {
+    display: block;
+    font-size: 1rem;
+    border: solid var(--color2) 1px;
+    border-radius: 5px;
+    padding: .75rem;
+    color: #EB5E28;
+    width: 100%;
+    max-width: 20rem;
+    background-color: rgba(0, 0, 0, 0.1);
+}
+/* The css below applies to the Radio choice section of Join,html */
+form label.sbs {
+    display: block;
+    padding: .75rem;
+    color: var(--color2)
+}
+/* The css below applies to the Radio choice section of Join,html */
+form input.submitBtn {
+    border : none;
+    color: var(--color5);
+    background-color: var(--color1);
+    border-radius: 1rem;
+    padding: .75rem;
+    margin: 0 0 2rem 2%;
+    width: 96%;
+    max-width: 20rem;
+}
+/* The css below validates whether the input tag has an input or not section of Join,html */
+
+form label.top input:required {
+    border-left: red solid 8px;
+}
+
+form label.top input:required:valid {
+    border-left: green solid 8px;
+} 
+
+table {
+	/* border-bridge sticks individual table cells together */
+    border-collapse: collapse;
+    margin: 0 auto;
+    border-radius: 15px;
+}
+
+caption {
+    padding: 10px;
+    caption-side: bottom;
+}
+th[scope='col']{
+	padding: 25px;
+    border: 1px solid rgb(6, 0, 0);
+    background-color: var(--color1);
+    color: white;
+    font-size: large;
+	text-align: center;
+}
+
+th[scope="colgroup"] {
+	text-align: center;
+	width: 500px;
+	padding: 10px;
+}
+
+tbody > tr:nth-child(even) {
+    background-color: var(--color4);
+}
+
+td{
+    border: 2px solid var(--color2);
+    font-size: 18px;
+    padding: 10px;
+    text-align: center;
+}
