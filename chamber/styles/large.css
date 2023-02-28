@@ -147,4 +147,7 @@
       form label.sbs {
         padding: .4rem 0;
       }
+      #footer-wrapper {
+        width: 300px;
+    }
 }
