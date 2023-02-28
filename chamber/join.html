@@ -54,19 +54,19 @@
                     <label class="top">Last Name*<input type="text" name="lname" required></label>
                     <label class="top">Email*<input type="email" name="email" placeholder="Jane&John@gmail.com" required></label>
                     <label class="top">Phone Number*<input type="tel" name="phone" placeholder="+19999999999"required></label>
-                    <label class="top">Business Name*<input type="text" name="busname" required></label>
-                    <label class="top">Business Position<input type="text" name="busposition" required></label>
+                    <label class="top">Business Title*<input type="text" name="busname" required></label>
+                    <label class="top">Business Position<input type="text" name="busposition" ></label>
                 </fieldset>
                 <fieldset class="fieldset2">
                     <legend>Select Membership Level</legend>
                     <label class="sbs"><input type="radio" name="membership" value="free">Free - no charge</label>
-                    <label class="sbs"><input type="radio" name="membership" value="mom&pop">Mom & Pop - $100 monthly</label>
-                    <label class="sbs"><input type="radio" name="membership" value="professional">Professional - $200 monthly</label>
-                    <label class="sbs"><input type="radio" name="membership" value="coorporate">Coorporate - $300 monthly</label>
+                    <label class="sbs"><input type="radio" name="membership" value="mom&pop">Bronze - $100 monthly</label>
+                    <label class="sbs"><input type="radio" name="membership" value="professional">Silver - $200 monthly</label>
+                    <label class="sbs"><input type="radio" name="membership" value="coorporate">Gold - $300 monthly</label>
                 </fieldset>
                 <fieldset class="fieldset3">
                     <legend>Describe your business!</legend>
-                    <textarea name="text-box" id="text-box" cols="30" rows="10"></textarea>
+                    <label for=""><textarea name="text-box" id="text-box" cols="30" rows="10"></textarea></label>
                 </fieldset>
                 <input type="submit" value="Join the Chamber!" class="submitBtn">
             </form>
@@ -78,9 +78,9 @@
                     <tr>
                         <th scope="col"></th>
                         <th scope="col">Free</th>
-                        <th scope="col">Mom & Pop</th>
-                        <th scope="col">Professional</th>
-                        <th scope="col">Coorporate</th>
+                        <th scope="col">Bronze</th>
+                        <th scope="col">Silver</th>
+                        <th scope="col">Gold</th>
                     </tr>
                 </thead>
                 <tbody>
@@ -167,5 +167,6 @@
         </footer >
     </div>
     <script src="scripts/discover.js"></script>  
+    <script src="scripts/app.js"></script>
 </body>
 </html>
