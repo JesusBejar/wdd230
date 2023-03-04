@@ -1,0 +1,78 @@
+{
+    "members" : [
+        {
+            "name" : "Mr.Chen's Sushi",
+            "address" : "2283 W Eisenhower Blvd, Loveland, CO 80537",
+            "phone" : "(970) 685-4720",
+            "website" : "https://tapthru.com/store/mr-chen-sushi-hibachi-steak-house-loveland-10416",
+            "membership" : "gold",
+            "image" : "sushi.png"
+        },
+        {
+            "name" : "Tesla",
+            "address" : "1606 N Lincoln Ave, Loveland, CO 80538",
+            "phone" : "(970) 541-6691",
+            "website" : "https://www.tesla.com/findus/location/service/loveland1606",
+            "membership" : "gold",
+            "imageurl" : ""
+        },
+        {
+            "name" : "Loveland Autozone",
+            "address" : "1030 S Lincoln Ave, Loveland, CO 80537",
+            "phone" : "(970) 622-0100",
+            "website" : "https://www.autozone.com/locations/co/loveland/1030-s-lincoln-ave.html?cmpid=LOC:US:EN:AD:NL:1000000:GEN:829",
+            "membership" : "silver",
+            "imageurl" : ""
+        },
+        {
+            "name" : "Henry's Pub",
+            "address" : "234 E 4th St, Loveland, CO 80537",
+            "phone" : "(970) 613-1896",
+            "website" : "https://www.henryspubloveland.com/",
+            "membership" : "bronze",
+            "imageurl" : ""
+        },
+        {
+            "name" : "Whiteside's | Western Gear",
+            "address" : "202 19th St SE, Loveland, CO 80537",
+            "phone" : "(970) 669-7808",
+            "website" : "https://www.whitesidesboots.com/",
+            "membership" : "silver",
+            "imageurl" : ""
+        },
+        {
+            "name" : "Infinite Jiu-Jitsu Academy",
+            "address" : "329 E 3rd St #305, Loveland, CO 80537",
+            "phone" : "(970) 593-1965",
+            "website" : "https://infinitejiujitsuloveland.com/",
+            "membership" : "free",
+            "imageurl" : ""
+        },
+        {
+            "name" : "Loveland Creator Space",
+            "address" : "320 N Railroad Ave, Loveland, CO 80537",
+            "phone" : "(970) 658-0038",
+            "website" : "https://www.lovelandcreatorspace.com/",
+            "membership" : "bronze",
+            "imageurl" : ""
+        },
+        {
+            "name" : "Sunrise Thompson Health Clinic",
+            "address" : "2880 N. Monroe Avenue, Loveland, CO, 80538",
+            "phone" : "(970) 613 6800",
+            "website" : "https://www.sunrisecommunityhealth.org/",
+            "membership" : "silver",
+            "imageurl" : ""
+        },
+        {
+            "name" : "Jax Outdoor",
+            "address" : "950 East Eisenhower Blvd., Loveland, CO, 80537",
+            "phone" : "(970) 776 4540",
+            "website" : "https://www.jaxgoods.com/",
+            "membership" : "free",
+            "imageurl" : ""
+        }
+        
+        
+    ]
+}
