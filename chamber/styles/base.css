@@ -221,8 +221,8 @@ form fieldset {
 }
 form legend {
     color: var(--color1);
-    margin: 0 1 rem;
-    padding: 0 .5rem;
+    margin: 0rem 1rem;
+    padding: 0rem .5rem;
 }
 
 form label.top {

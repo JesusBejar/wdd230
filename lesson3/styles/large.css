@@ -20,6 +20,8 @@
         header,
         footer {
             max-width: 1000px;
+            color: white;
+            text-decoration: none;
         }
         header h1 {
             padding: 40px;
@@ -39,5 +41,8 @@
         }
         .first-page h2 {
             font-size: 28px;
+        }
+        .nav-text {
+            color: white;
         }
 }
