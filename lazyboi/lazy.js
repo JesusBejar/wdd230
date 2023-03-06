@@ -13,6 +13,8 @@ let loadPhotos = (photo) => {
   photo.setAttribute("src", photo.getAttribute("data-src"));
   photo.onload = () => {
     photo.removeAttribute("data-src")
+  photo.setAttribute("width", "300")
+  photo.setAttribute("height", "400")
   };
 };
 
