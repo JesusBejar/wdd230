@@ -1,12 +1,12 @@
 {
-    "members" : [
+    "businesses" : [
         {
             "name" : "Mr.Chen's Sushi",
             "address" : "2283 W Eisenhower Blvd, Loveland, CO 80537",
             "phone" : "(970) 685-4720",
             "website" : "https://tapthru.com/store/mr-chen-sushi-hibachi-steak-house-loveland-10416",
             "membership" : "gold",
-            "image" : "sushi.png"
+            "image" : "images/sushiRolls.webp"
         },
         {
             "name" : "Tesla",
@@ -14,7 +14,7 @@
             "phone" : "(970) 541-6691",
             "website" : "https://www.tesla.com/findus/location/service/loveland1606",
             "membership" : "gold",
-            "imageurl" : ""
+            "image" : "images/sport-car.webp"
         },
         {
             "name" : "Loveland Autozone",
@@ -22,7 +22,7 @@
             "phone" : "(970) 622-0100",
             "website" : "https://www.autozone.com/locations/co/loveland/1030-s-lincoln-ave.html?cmpid=LOC:US:EN:AD:NL:1000000:GEN:829",
             "membership" : "silver",
-            "imageurl" : ""
+            "image" : "images/mechanic.webp"
         },
         {
             "name" : "Henry's Pub",
@@ -30,7 +30,7 @@
             "phone" : "(970) 613-1896",
             "website" : "https://www.henryspubloveland.com/",
             "membership" : "bronze",
-            "imageurl" : ""
+            "image" : "images/beer.webp"
         },
         {
             "name" : "Whiteside's | Western Gear",
@@ -38,7 +38,7 @@
             "phone" : "(970) 669-7808",
             "website" : "https://www.whitesidesboots.com/",
             "membership" : "silver",
-            "imageurl" : ""
+            "image" : "images/cowboy.webp"
         },
         {
             "name" : "Infinite Jiu-Jitsu Academy",
@@ -46,7 +46,7 @@
             "phone" : "(970) 593-1965",
             "website" : "https://infinitejiujitsuloveland.com/",
             "membership" : "free",
-            "imageurl" : ""
+            "image" : "images/judo.webp"
         },
         {
             "name" : "Loveland Creator Space",
@@ -54,7 +54,7 @@
             "phone" : "(970) 658-0038",
             "website" : "https://www.lovelandcreatorspace.com/",
             "membership" : "bronze",
-            "imageurl" : ""
+            "image" : "images/tool-box.webp"
         },
         {
             "name" : "Sunrise Thompson Health Clinic",
@@ -62,7 +62,7 @@
             "phone" : "(970) 613 6800",
             "website" : "https://www.sunrisecommunityhealth.org/",
             "membership" : "silver",
-            "imageurl" : ""
+            "image" : "images/cardiogram.webp"
         },
         {
             "name" : "Jax Outdoor",
@@ -70,7 +70,7 @@
             "phone" : "(970) 776 4540",
             "website" : "https://www.jaxgoods.com/",
             "membership" : "free",
-            "imageurl" : ""
+            "image" : "images/camping.webp"
         }
         
         
