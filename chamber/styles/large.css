@@ -150,4 +150,7 @@
       #footer-wrapper {
         width: 300px;
     }
+    .cards {
+        grid-template-columns: repeat(3,1fr);
+    }
 }
