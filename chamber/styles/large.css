@@ -153,4 +153,12 @@
     .cards {
         grid-template-columns: repeat(3,1fr);
     }
+    .list {
+        grid-template-columns: repeat(3,1fr);
+    }
+    .list section {
+        grid-template-columns: 10% 20% 10% 20% 20% 20%;
+        flex-direction: row;
+        align-items: center;
+    }
 }
