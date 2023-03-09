@@ -21,8 +21,6 @@ businesses.forEach((business) => {
         let membership = document.createElement("h2");
         let image = document.createElement("img");
 
-        single_card.setAttribute("width", "300px")
-
         name.innerHTML = `----${business.name}----`;
 
         address.innerHTML = `${business.address}`;
@@ -52,3 +50,17 @@ businesses.forEach((business) => {
     }
 );
 }
+
+let meatball = document.querySelector(".meatball");
+let gridMenu = document.querySelector(".grid-menu");
+let container = document.querySelector("#cards");
+
+meatball.addEventListener("click", () => {
+    container.classList.remove("grid-menu");
+    container.classList.add("list");
+})
+
+gridMenu.addEventListener("click", () => {
+    container.classList.add("grid-menu");
+    container.classList.remove("list");
+})
