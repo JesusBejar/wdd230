@@ -3,6 +3,7 @@
     --nunito: 'Nunito Sans', sans-serif;
 
     --color1: #EB5E28;
+    /* #de5926 use this color for color 1 */
     --color2: #252422;
     --color3: #403D39;
     --color4: #CCC5B9;
@@ -305,13 +306,40 @@ td{
     padding: 10px;
     text-align: center;
 }
-
+.directory {
+    display: flex;
+    flex-direction: column;
+    margin: 0 auto;
+}
 .cards {
     display: grid;
     grid-template-columns: repeat(1,1fr);
     text-align: center;
     width: 100%;
+    padding: 10px;
+}
+.cards section {
+    width: 100%;
+    border:solid var(--color2) 2px;
 }
 .cards img {
     margin: 0 auto;
 }
+.list {
+    display: block;
+}
+.list section {
+    display: grid;
+    grid-template-columns: 10% 20% 10% 20% 20% 20%;
+    flex-direction: row;
+    align-items: center;
+}
+.btn-wrap {
+    margin: 0 auto;
+}
+.directory h1 {
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+
