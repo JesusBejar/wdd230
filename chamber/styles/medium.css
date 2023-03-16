@@ -1,4 +1,15 @@
 @media only screen and (min-width: 37.5em) {
+    :root {
+        --roboto: 'Roboto', sans-serif;
+        --nunito: 'Nunito Sans', sans-serif;
+    
+        --color1: #c24f22;
+        /* #de5926 use this color for color 1 */
+        --color2: #252422;
+        --color3: #403D39;
+        --color4: #CCC5B9;
+        --color5: #FFFCF2;
+    }
     .navBar {
         display: flex;
         flex-direction: column;
@@ -12,6 +23,9 @@
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
     }
+    #title h1, #title h2 {
+    font-size: 34px;
+}
     #hero-box {
         grid-column: 1/5;
     }

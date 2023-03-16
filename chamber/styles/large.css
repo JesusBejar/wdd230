@@ -1,5 +1,15 @@
 @media only screen and (min-width: 65em){
-
+    :root {
+        --roboto: 'Roboto', sans-serif;
+        --nunito: 'Nunito Sans', sans-serif;
+    
+        --color1: #c24f22;
+        /* #de5926 use this color for color 1 */
+        --color2: #252422;
+        --color3: #403D39;
+        --color4: #CCC5B9;
+        --color5: #FFFCF2;
+    }
     .navBar {
         display: flex;
         flex-direction: row;
@@ -16,10 +26,16 @@
     .navBar li:first-of-type {
         display: none;
     }
+    #title h1, #title h2 {
+    font-size: 44px;
+}
     header {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 60% 20% 20%;
+    }
+    .logo {
+        margin-top: 0;
     }
     p #message1 {
         grid-column: 1/2;
@@ -81,10 +97,12 @@
       display: block;
   }
     .lastVisit {
-        color: #EB5E28;
+        color: var(--color5);
     }
     .userVisits {
-        color: #EB5E28;
+        color: var(--color5);
+        grid-column: 1/2;
+        grid-row: 3/4;
     }
     #contact-info {
         width: 200px;

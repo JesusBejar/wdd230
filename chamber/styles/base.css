@@ -2,12 +2,15 @@
     --roboto: 'Roboto', sans-serif;
     --nunito: 'Nunito Sans', sans-serif;
 
-    --color1: #EB5E28;
+    --color1: #c24f22;
     /* #de5926 use this color for color 1 */
     --color2: #252422;
     --color3: #403D39;
     --color4: #CCC5B9;
     --color5: #FFFCF2;
+}
+img {
+    width: 100%;
 }
 
 #page {
@@ -64,8 +67,6 @@ li .navText {
 .showListItems li:first-of-type .x{
     display: block;
 }
-
-
 .x {
     display: none;
 }
@@ -82,12 +83,21 @@ li .navText {
     margin-left: 25px;
     margin-top: 25px;
     box-shadow: 0px 0px 10px var(--color5);
+    width: 50%;
 }
 #title {
     text-align: center;
     margin: 0 auto;
 }
-#icons {
+#title h1, #title h2 {
+    font-size: 24px;
+}
+.icons {
+    text-align: right;
+    display: flex;
+    align-self: center;
+    justify-self: flex-end;
+    flex-direction: column;
     text-align: right;
 }
 #hamburgerBtn {
@@ -114,6 +124,22 @@ main {
     grid-column: 1;
     text-align: center;
     border: solid var(--color3) 5px;
+}
+.weather-icon {
+    width: 100px;
+    background-color: #FFFCF2;
+}
+.windtemp {
+    font-size: 24px;
+    font-weight: bold;
+}
+.windspeed {
+
+}
+.windchill {
+
+}
+.weather-condition {
 
 }
 #event1 { 
@@ -128,6 +154,7 @@ main {
 #event1 img {
     border: solid var(--color2) 5px;
     background-color: var(--color5);
+    width: 100%;
 }
 #join { 
     grid-column: 1;
@@ -229,8 +256,9 @@ form legend {
 form label.top {
     display: block;
     color: var(--color2);
-    font-size: .8rem;
+    font-size: 1.2rem;
     color: red;
+    font-weight: bold;
 }
 form label.top input, form label.top select {
     display: block;
@@ -324,6 +352,7 @@ td{
 }
 .cards img {
     margin: 0 auto;
+    width: 60px;
 }
 .list {
     display: block;
