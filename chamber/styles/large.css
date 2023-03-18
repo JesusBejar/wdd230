@@ -35,7 +35,7 @@
         grid-template-rows: 60% 20% 20%;
     }
     .logo {
-        margin-top: 0;
+        margin-top: 25px;
     }
     p #message1 {
         grid-column: 1/2;
@@ -104,8 +104,8 @@
         grid-column: 1/2;
         grid-row: 3/4;
     }
-    #contact-info {
-        width: 200px;
+    #map {
+        width: 350px;
         height: 200px;
     }
     iframe {
@@ -165,9 +165,6 @@
       form label.sbs {
         padding: .4rem 0;
       }
-      #footer-wrapper {
-        width: 300px;
-    }
     .cards {
         grid-template-columns: repeat(3,1fr);
     }
@@ -178,5 +175,8 @@
         grid-template-columns: 10% 20% 10% 20% 20% 20%;
         flex-direction: row;
         align-items: center;
+    }
+    p#sub-footer {
+        grid-column: 1/4;
     }
 }

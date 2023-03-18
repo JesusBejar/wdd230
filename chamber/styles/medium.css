@@ -19,6 +19,15 @@
         grid-template-columns: 1fr 1fr 1fr 1fr ;
         /* grid-template-rows: auto auto; */
     }
+    #map {
+        width: 200px;
+        height: 200px;
+        text-align: center;
+    }
+    iframe {
+        width: 200px;
+        height: 200px;
+    }
     footer {
         display: grid;
         grid-template-columns: 1fr 1fr 1fr;
@@ -58,9 +67,6 @@
     #three { 
         grid-row: 3/4;
         grid-column: 3/4;
-    }
-    #footer-wrapper {
-        width: 200px;
     }
     .cards {
         grid-template-columns: repeat(2,1fr);

@@ -124,6 +124,8 @@ main {
     grid-column: 1;
     text-align: center;
     border: solid var(--color3) 5px;
+    background-color: var(--color4);
+    padding: 5px;
 }
 .weather-icon {
     width: 100px;
@@ -216,8 +218,14 @@ main {
 footer .logo {
     text-align: left;
 }
-#contact-info {
+#map {
+    width: 100px;
+    height: 100px;
     text-align: center;
+}
+iframe {
+    width: 100px;
+    height: 100px;
 }
 footer {
     margin: 0 auto;
@@ -227,11 +235,6 @@ footer {
     max-width: 100%;
     font-size: 20px;
 }
-#footer-wrapper {
-    display: flex;
-	align-items: center;
-	justify-content: center;
-}
 #sub-footer {
     display: flex;
 	align-items: center;
@@ -240,6 +243,8 @@ footer {
 #message1 {
     grid-column: 3/4;
     grid-row: 2/3;
+    text-align: right;
+    color: var(--color1);
 }
 /* The css below applies to the Name, LastName section of Join,html */
 form fieldset {
