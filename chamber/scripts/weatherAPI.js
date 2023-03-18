@@ -16,15 +16,26 @@ async function apiFetch() {
         const data = await response.json();
         console.log(data); // this is for testing the call
 
+         // weather icon
+         let icon = data.weather[0].icon;
+         const iconsrc = `https://openweathermap.org/img/w/${icon}.png`;
+         weatherIcon.setAttribute("src", iconsrc);
+         weatherIcon.setAttribute("alt", "weather icon");
+         weatherIcon.setAttribute("background-color", "#FFFCF2");
+         weatherIcon.setAttribute("width", "64px");
+
         // temp
         let temp = data.main.temp;
         // Math.ceil rounds up to the next closet int
         // Math.floor does the opposite
-        currentTemp.innerHTML = `Tempature ${Math.ceil(temp)} F°`;
-
+        currentTemp.innerHTML = `${Math.ceil(temp)} F°`;
+        currentTemp.setAttribute("text-align", "center");
+        currentTemp.setAttribute("font-size", "44px");
+        currentTemp.setAttribute("font-weight", "bold");
         // wind speed
         let speed = data.wind.speed;
-        windSpeed.innerHTML = `Wind speed ${Math.ceil(speed)} mph`;
+        windSpeed.innerHTML = `Wind speed: ${Math.ceil(speed)} mph`;
+        windSpeed.setAttribute("text-align", "center");
 
         // wind chill
         function Windchill() {
@@ -36,15 +47,13 @@ async function apiFetch() {
                 windchillcalculation = "N/A";
             }
             console.log(windchillcalculation);
-            windchill.innerHTML = `WindChill ${windchillcalculation}`;
+            windchill.innerHTML = `WindChill: ${windchillcalculation}`;
             }
         Windchill()
-        // weather icon
-        let icon = data.weather[0].icon;
-        const iconsrc = `https://openweathermap.org/img/w/${icon}.png`;
-        weatherIcon.setAttribute("src", iconsrc);
-        weatherIcon.setAttribute("alt", "weather icon")
 
+        let condition = data.weather[0].description;
+        weatherCondition.innerHTML = `${condition}`;
+        console.log(weatherCondition);
 
       } else {
           throw Error(await response.text());
