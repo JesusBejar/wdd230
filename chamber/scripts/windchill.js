@@ -15,7 +15,7 @@ function Windchill () {
         windchillcalculation = "N/A";
     }
     console.log(windchillcalculation);
-    windchill.innerHTML = windchillcalculation.toFixed(2);
+    windchill.innerHTML = Math.ceil(windchillcalculation);
 }
 
 Windchill(); 

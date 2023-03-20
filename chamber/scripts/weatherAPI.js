@@ -47,7 +47,7 @@ async function apiFetch() {
                 windchillcalculation = "N/A";
             }
             console.log(windchillcalculation);
-            windchill.innerHTML = `WindChill: ${windchillcalculation}`;
+            windchill.innerHTML = `WindChill: ${Math.ceil(windchillcalculation)}`;
             }
         Windchill()
 
