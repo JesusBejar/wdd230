@@ -79,5 +79,8 @@
         flex-direction: row;
         align-items: center;
     }
-
+    main#ContactUsPage {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
 }
