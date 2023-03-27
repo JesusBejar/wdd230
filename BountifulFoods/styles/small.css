@@ -1,0 +1,85 @@
+/* the code below are root fonts and styles */
+:root {
+    --georgia: 'Noto Serif Georgian', serif;
+    --space: 'Space Mono', monospace;
+
+    --color1: #528676;
+    --color2: #46494C;
+    --color3: #E5E4E3;
+    --color4: #F6AE2D;
+    --color5: #34a0a4;
+    --body: #000;
+    --body: #fff;
+
+}
+header {
+    text-align: center;
+    font-size: 35px;
+}
+main {
+    text-align: center;
+}
+#site-purpose {
+    width: 1000px;
+    margin: 0 auto;
+}
+/* the code below styles the actual table layout */
+table {
+    width: 50%;
+    margin: 0 auto;
+}
+th {    
+    font-size: 16px;
+    text-align: left;
+    padding: 15px;
+    border: solid var(--color2) 2px;
+}
+tr td {
+    font-family: var(--nunito);
+    text-align: center;
+    margin-left: 5px;
+    border: solid var(--color2) 2px;
+}
+table, td {
+    border: 2px var(--color2);
+    height: 10vh;
+}
+/* the code below provides sample styles within the table */
+/* header */
+table tbody tr .sample1 {
+    color: #000;
+    background-color: #E5E4E3;
+    font-size: 40px;
+}
+/* nav bar */
+table tbody tr .sample2 {
+    color: #fff;
+    background-color: #528676;
+    font-size: 30px;
+}
+/* footer */
+table tbody tr .sample3 {
+    color: #000;
+    background-color: #E5E4E3;
+    font-size: 20px;
+}
+table tbody tr .sample4-1 {
+    color: #081c15;
+    background-color: #F6AE2D;
+    font-size: 30px;
+}
+table tbody tr .sample4-2 {
+    color: #081c15;
+    background-color: #F6AE2D;
+    font-size: 25px;
+}
+table tbody tr .sample4-3 {
+    color: #081c15;
+    background-color: #F6AE2D;
+    font-size: 20px;
+}
+table tbody tr .sample5 {
+    color: var(--color1);
+    background-color: var(--color3);
+    font-size: 16px;
+}
