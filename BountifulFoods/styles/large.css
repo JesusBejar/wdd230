@@ -1,0 +1,14 @@
+@media only screen and (min-width: 65em){
+    :root {
+        --georgia: 'Noto Serif Georgian', serif;
+        --space: 'Space Mono', monospace;
+    
+        --color1: #528676;
+        --color2: #46494C;
+        --color3: #E5E4E3;
+        --color4: #F6AE2D;
+        --color5: #34a0a4;
+        --body: #000;
+        --body: #fff;
+    }
+}
