@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Fresh page</title>
+    <title>Home page</title>
     <!-- favicon -->
     <link rel="icon" href="images/favicon.webp">
     <!-- fonts -->
@@ -16,15 +16,15 @@
     <link rel="stylesheet" href="styles/large.css">
 </head>
 <body>
-    <header class="header-2">
+    <header class="header-1">
         <!-- logo & title -->
-        <img src="images/logo.webp" alt="logo pic">
+        <img class="top-logo" src="images/logo.webp" alt="logo pic">
         <div class="title-1">
             <h1>Bountiful foods</h1>
-            <h2>Fresh page</h2>
+            <h2>Home Page</h2>
         </div>
         <!-- social media icons -->
-        <div class="top-icons2">
+        <div class="top-icons1">
             <a href="https://www.instagram.com/"><img src="images/instagram.webp" alt="instagram"></a>
             <a href="https://www.facebook.com/"><img src="images/facebook.webp" alt="facebook"></a>
             <a href="https://www.linkedin.com/"><img src="images/linkedin.webp" alt="linkedin"></a>
@@ -39,43 +39,44 @@
                 <li><a href="ABOUT-US.html">About Us</a></li>
             </ul>
         </nav>
-        <!-- Slideshow container -->
+    </header>
+    <!-- Slideshow container -->
     <div class="slideshow-container">
         <!-- Full-width images with number and caption text -->
         <div class="mySlides fade">
         <div class="numbertext">1 / 3</div>
-        <img src="images/amy-shamblen-h5yMpgOI5nI-unsplash.jpg" style="width:100%">
+        <img src="images/fruit1.webp" style="width:100%">
         </div>
     
         <div class="mySlides fade">
         <div class="numbertext">2 / 3</div>
-        <img src="images/quaritsch-photography-lZ8onQ1wuY8-unsplash.jpg" style="width:100%">
+        <img src="images/fruit2.webp" style="width:100%">
         </div>
     
         <div class="mySlides fade">
         <div class="numbertext">3 / 3</div>
-        <img src="images/philippe-gauthier-eaOjEz8746k-unsplash.jpg" style="width:100%">
+        <img src="images/fruit3.webp" style="width:100%">
         </div>
-    
         <!-- Next and previous buttons -->
         <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
         <a class="next" onclick="plusSlides(1)">&#10095;</a>
     </div>
     </header>
     <main>
-        <!-- left side of main section of wireframe -->
-        <div class="left-side">
-            <!-- 1st order form -->
-            <form class="order-form">
-                <fieldset class="fieldset1">
-                    <legend>YOUR ORDER</legend>
-                    <label class="top1">First Name*<input type="text" name="fname" required></label>
-                    <label class="top1">Email*<input type="email" name="email" placeholder="Jane&John@gmail.com" required></label>
-                    <label class="top1">Phone Number*<input type="tel" name="phone" placeholder="+19999999999" required></label>
-                </fieldset>
-                <!-- 2nd order form -->
-                <h2>CHOOSE 3 FRUITS FOR YOUR DRINK</h2>
-                <fieldset class="fieldset2">
+        <main>
+            <!-- left side of main section of wireframe -->
+            <div class="left-side">
+                <!-- 1st order form -->
+                <form class="order-form">
+                    <fieldset class="fieldset1">
+                        <legend>YOUR ORDER</legend>
+                        <label class="top1">First Name*<input type="text" name="fname" required></label>
+                        <label class="top1">Email*<input type="email" name="email" placeholder="Jane&John@gmail.com" required></label>
+                        <label class="top1">Phone Number*<input type="tel" name="phone" placeholder="+19999999999" required></label>
+                    </fieldset>
+                    <!-- 2nd order form -->
+                    <fieldset class="fieldset2">
+                        <legend>CHOOSE 3 FRUITS FOR YOUR DRINK</legend>
                     <!-- input 1 -->
                     <div class="input-1">
                         <select name="ingredients" id="ingredients">
@@ -120,7 +121,7 @@
                         </select>
                     </div>
                     <!-- input 2 -->
-                    <div class="input-2">
+                    <div class="input-1">
                         <select name="ingredients" id="ingredients">
                             <option value="apple">Apple</option>
                             <option value="apricot">Avocado</option>
@@ -163,7 +164,7 @@
                         </select>
                     </div>
                     <!-- input 3 -->
-                    <div class="input-3">
+                    <div class="input-1">
                         <select name="ingredients" id="ingredients">
                             <option value="apple">Apple</option>
                             <option value="apricot">Avocado</option>
@@ -205,30 +206,34 @@
                             <option value="watermelon">Watermelon</option>
                         </select>
                     </div>
-                    <!-- textearea section -->
-                    <legend>SPECIAL INSTRUCTIONS</legend>
-                    <label for=""><textarea name="text-box" id="text-box" cols="30" rows="10"></textarea></label>
-                </fieldset>
-                <input type="submit" value="Send us your inquiry!" class="submitBtn" method="get" action="/chamber/thankyou.html">
-            </form>
-        </div>
-        <!-- right side of main section of wireframe -->
-        <div class="right-side"></div>
+                    </fieldset>
+                    <fieldset class="fieldset3">
+                        <!-- textearea section -->
+                        <legend>SPECIAL INSTRUCTIONS</legend>
+                        <label class="text-box" for=""><textarea name="text-box" id="text-box" cols="30" rows="10"></textarea></label>
+                    </fieldset>
+                    <input type="submit" value="Order your drink!" class="submitBtn" method="get" action="/chamber/thankyou.html">
+                </form>
+            </div>
+            <!-- right side of main section of wireframe -->
+            <div class="right-side"></div>
+        </main>
     </main>
     <footer>
         <!-- logo -->
-        <a href="HOME.html"><img src="images/logo.webp" alt="logo pic"></a>
+        <a href="HOME.html"><img class="bottom-logo" src="images/logo.webp" alt="logo pic"></a>
         <!-- social media icons -->
-        <div class="bottom-icons2">
+        <div class="bottom-icons1">
             <a href="https://www.instagram.com/"><img src="images/instagram.webp" alt="instagram"></a>
             <a href="https://www.facebook.com/"><img src="images/facebook.webp" alt="facebook"></a>
             <a href="https://www.linkedin.com/"><img src="images/linkedin.webp" alt="linkedin"></a>
         </div>
         <h1>Bountiful foods</h1>
         <!-- last modified -->
-        <span id="last-modified"></span> Last modified : <span id="last-modified"></span>
-        <span id="date1"></span> Loveland Chamber | Jesus Bejar | WDD 230 final project<span id="date2"></span>
+        <p class="last-modified">Last modified :</p>
+        <p class="sub-footer">Loveland Chamber | Jesus Bejar | WDD 230 final project</p>
     </footer>
+    <script src="scripts/weather.js"></script>
     <script src="scripts/slides.js"></script>
 </body>
 </html>
