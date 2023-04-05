@@ -11,4 +11,13 @@
         --body: #000;
         --body: #fff;
     }
+    img.top-logo {
+        width: 80%;
+    }
+    img.bottom-logo {
+        margin: 0 auto;
+        width: 15%;
+        padding-top: 8%;
+        margin-left: 42%;
+    }
 }

@@ -45,6 +45,12 @@ table tbody tr .sample1 {
     background-color: #E5E4E3;
     font-size: 40px;
 }
+/* hamburger button */
+#hamburgerBtn span:nth-child(1),
+#hamburgerBtn.open span:nth-child(2) {display: block;}
+
+#hamburgerBtn span:nth-child(2),
+#hamburgerBtn.open span:nth-child(1) {display: none;}
 /* nav bar */
 table tbody tr .sample2 {
     color: #fff;
@@ -155,41 +161,22 @@ main {
   from {opacity: .4}
   to {opacity: 1}
 }
-/* HOME PAGE styles----------------------------- */
 header {
-  display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
-  grid-template-rows: 3fr 1fr;
+  display: block
 }
 nav {
   grid-column: 1/4;
 }
 .nav-bar {
-  display: flex;
-  flex-direction: row;
-  background-color: var(--color1);
-  justify-content: space-evenly;
-  align-items: center;
-  padding: 10px 10%;
-  height: 70%;
-  width: 100%;
-}
-
-.nav-bar :hover{
-  background-color: var(--color5);
+  display: none;
 }
 nav ul li a {
-  color: #fff;
-  font-size: 22px;
-  list-style: none;
-  text-decoration: none;
-  padding-left: 5px;
-  padding-right: 5px;
+  display: none;
 }
 .top-icons1{
   display: flex;
-  flex-direction: column;
-  text-align: right;
+  flex-direction: row;
+  justify-content: space-evenly;
 }
 img.top-logo {
   margin: 0 auto;
@@ -219,23 +206,11 @@ img.top-logo {
   background-color: var(--color1);
 }
 .juice-up {
-  position: absolute;
-  top: 1270px;
-  left: 350px;
-  color: #fff;
-  font-size: 50px;
-  background-color: var(--color1);
-  border-radius: 50px;
-  padding: 15px;
-}
-.juice-up:hover{
-  color: #fff;
-  background-color: var(--color4);
+  display: none;
 }
 /* code for section 1 (above weather forecast)*/
 .section1 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: block;
 }
 .top-text{
   grid-column: 1/1;
@@ -251,8 +226,7 @@ img.top-logo {
 }
 /* code for section 2 (below weather forecast)*/
 .section2 {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: block
 }
 .bottom-text{
   grid-column: 2/3;
@@ -268,14 +242,13 @@ img.top-logo {
 }
 /* code for the footer */
 footer {
-  display: grid;
-  grid-template-columns: 1fr 3fr 1fr;
-  grid-template-rows: 180px 1fr 1fr;
+  display: block;
 }
 img.bottom-logo {
   margin: 0 auto;
   width: 50%;
   padding-top: 8%;
+  margin-left: 25%;
 }
 footer h1 {
   grid-column: 2/3;
@@ -287,8 +260,9 @@ footer h1 {
 .bottom-icons1 {
   grid-column: 3/4;
   display: flex;
-  flex-direction: column;
+  flex-direction: row;
   text-align: right;
+  justify-content: space-evenly;
 }
 p.last-modified {
   grid-column: 1/4;
@@ -391,9 +365,7 @@ label.text-box {
 /* ---------------------------------------------- */
 /* ABOUT US PAGE styles----------------------------- */
 .bottom {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  padding-bottom: 20px;
+  display: block;
 }
 fieldset.fieldset-right {
   font-size: 22px;
@@ -408,4 +380,6 @@ fieldset.fieldset-right {
 .bottom input.submitBtn {
   grid-column: 2/3;
 }
+/* ---------------------------------------------- */
+
 
