@@ -26,6 +26,22 @@
         grid-template-columns: 1fr 1fr;
         padding-bottom: 20px;
     }
+    img.top-logo {
+        margin: 0 auto;
+        width: 50%;
+        padding-top: 8%;
+    }
+    .try-now {
+        display: block;
+        position: absolute;
+        top: 920px;
+        left: 1265px;
+        color: #fff;
+        font-size: 50px;
+        background-color: var(--color4);
+        border-radius: 50px;
+        padding: 15px;
+    }
     .nav-bar {
         display: flex;
         flex-direction: row;
@@ -52,10 +68,20 @@
         display: grid;
         grid-template-columns: 1fr 1fr;
     }
+    .weather-cards {
+        font-size: 27px;
+    }
+    .weather-forecast {
+        display: grid;
+        padding-bottom: 15px;
+        grid-template-columns: 1fr 1fr 1fr;
+        border: solid var(--color4) 5px;
+        padding: 15px;
+    }
     .juice-up {
         display: grid;
         position: absolute;
-        top: 1270px;
+        top: 1820px;
         left: 350px;
         color: #fff;
         font-size: 50px;
