@@ -310,22 +310,31 @@ p.sub-footer {
 }
 /* ---------------------------------------------- */
 /* FRESH PAGE styles----------------------------- */
-main .fresh {
+main.fresh {
   text-align: center;
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  display: block;
+}
+main.fresh legend 
+{
+  color: var(--color4);
 }
 main .right-side {
   grid-column: 2/3;
-  text-align: right;
   padding-left: 2rem;
   width: 100%;
   height: 100%;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  padding: 25px;
+}
+main .right-side img {
+  padding: 5px;
+  border: solid var(--color1) 7px;
 }
 main .left-side {
   grid-column: 1/2;
   text-align: left;
-  width: 100%;
+  width: 80%;
   height: 100%;
   padding-left: 12rem;
 }
@@ -390,12 +399,16 @@ input.submitBtn:hover {
   background-color: var(--color4);
 }
 label.text-box {
-  text-align: center;
+  text-align: left;
 }
 /* ---------------------------------------------- */
 /* ABOUT US PAGE styles----------------------------- */
 .bottom {
   display: block;
+}
+main.about-us legend 
+{
+  color: var(--color4);
 }
 fieldset.fieldset-right {
   font-size: 22px;

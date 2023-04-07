@@ -114,4 +114,12 @@
         width: 50%;
         padding-top: 8%;
     }
+    main.fresh {
+        text-align: center;
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .form-info {
+        text-align: right;
+    }
 }
